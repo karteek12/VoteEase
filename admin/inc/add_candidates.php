@@ -176,10 +176,6 @@
         }else {
             echo "<script> location.assign('index.php?addCandidatePage=1&largeFile=1'); </script>";
         }
-
-        // Photograph Logic Ends
-        
-
     ?>
       <?php
 
