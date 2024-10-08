@@ -15,7 +15,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adminpanel - Online Voting System</title>
+    <title>Adminpanel - VoteEase</title>
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
@@ -27,7 +27,7 @@
                 <img src="../assets/images/logo.gif" width="80px"/>
             </div>
             <div class="col-11 my-auto">
-                <h3> ONLINE VOTING SYSTEM  - <small> Welcome  <?php echo $_SESSION['username']; ?></small> </h3>
+                <h3> VoteEase - <small> Welcome  <?php echo $_SESSION['username']; ?></small> </h3>
             </div>
         </div>
 
