@@ -46,7 +46,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Login - Online Voting System</title>
+	<title>Login - VoteEase</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/login.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -182,8 +182,8 @@
     {
         $su_username = mysqli_real_escape_string($db, $_POST['su_username']);
         $su_contact_no = mysqli_real_escape_string($db, $_POST['su_contact_no']);
-        $su_password = mysqli_real_escape_string($db, sha1($_POST['su_password']));
-        $su_retype_password = mysqli_real_escape_string($db, sha1($_POST['su_retype_password']));
+        $su_password = mysqli_real_escape_string($db, hash('sha256', $_POST['su_password']));
+        $su_retype_password = mysqli_real_escape_string($db, hash('sha256',$_POST['su_retype_password']));
         $user_role = "Voter"; 
 
         if($su_password == $su_retype_password)
