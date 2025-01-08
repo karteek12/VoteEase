@@ -6,7 +6,7 @@
 * **Database Integration** : Information about voters and candidates is stored in a secure MySQL database.
 * **Mobile-Friendly** : Responsive design using Bootstrap ensures smooth operation on all devices.
 ## 🛠️ Tech Stack
-* **Frontend** : HTML5, CSS3, Bootstrap
+* **Frontend** : HTML5, CSS3, Bootstrap , Javascript
 * **Backend** : PHP
 * **Database** : MySQL
 * **Version Control** : Git
