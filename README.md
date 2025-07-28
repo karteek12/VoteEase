@@ -19,14 +19,14 @@
 ## 🔧 Installation
 1) **Clone this repository** :
    ```
-   git clone https://github.com/your-username/VoteEase.git
+   git clone https://github.com/karteek12/VoteEase.git
    ```
 2) **Navigate to the project directory** :
    ```
    cd VoteEase
    ```
 3) Import the database (onlinevotingsystem.sql) into your SQL server.
-4) Set up your local PHP server or use a hosting service.
+4) Set up your local PHP server.
 5) Open the platform in your browser and start voting!
 ## 🤝 Contributing
 Contributions are welcome! Please follow the standard GitHub flow:
